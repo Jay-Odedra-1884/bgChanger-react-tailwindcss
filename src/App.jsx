@@ -8,7 +8,7 @@ function App() {
       style={{backgroundColor:color}}>
         <div className='flex justify-center flex-wrap gap-3 fixed bottom-0 bg-white px-5 py-3 rounded-lg'>
           
-            <buttonhf className='text-white outline-none rounded-3xl px-5 py-1' style={{backgroundColor: "red"}} onClick={() => setColor("red")}>Red</button>
+            <button className='text-white outline-none rounded-3xl px-5 py-1' style={{backgroundColor: "red"}} onClick={() => setColor("red")}>Red</button>
             <button className='text-white outline-none rounded-3xl px-5 py-1' style={{backgroundColor: "green"}} onClick={() => setColor("green")}>Green</button>
             <button className='text-white outline-none rounded-3xl px-5 py-1' style={{backgroundColor: "blue"}} onClick={() => setColor("blue")}>Blue</button>
             <button className='text-white outline-none rounded-3xl px-5 py-1' style={{backgroundColor: "yellow"}} onClick={() => setColor("yellow")}>Yellow</button>
